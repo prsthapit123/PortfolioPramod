@@ -70,7 +70,7 @@ export default function App() {
              transition={{ delay: 2 }}
              className="glass-card p-3 flex flex-col items-center gap-2"
            >
-             <span className="text-[10px] items-center font-mono text-red/40 rotate-90 mb-4 whitespace-nowrap uppercase tracking-widest font-bold">Scroll Exploration</span>
+             <span className="text-[10px] items-center font-mono text-white/40 rotate-90 mb-4 whitespace-nowrap uppercase tracking-widest font-bold">Scroll Exploration</span>
              <div className="w-px h-20 bg-gradient-to-b from-brand-accent to-transparent" />
            </motion.div>
         </div>

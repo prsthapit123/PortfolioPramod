@@ -1,6 +1,6 @@
 import { Project, ExperienceItem, SkillCategory } from "./types";
-import RiskImg from "../src/assets/FinancialRisk.jpg";
-import AnalyticsImg from "../src/assets/RealTimePic.jpg";
+import RiskImg from "./assets/FinancialRisk.jpg";
+import AnalyticsImg from "./assets/RealTimePic.jpg";
 
 export const PORTFOLIO_DATA = {
   name: "Pramod Ratna Sthapit",

@@ -38,7 +38,7 @@ export function Hero() {
             </a>
             <a
               href="#contact"
-              className="px-10 py-4 glass-card font-bold text-xs uppercase tracking-wider hover:bg-white/5 transition-all text-red/80 border-white/20"
+              className="px-10 py-4 glass-card font-bold text-xs uppercase tracking-wider hover:bg-white/5 transition-all text-white/80 border-white/20"
             >
               Contact Me
             </a>

@@ -39,7 +39,7 @@ export function Contact() {
               </div>
               <div>
                 <p className="text-xs uppercase font-mono text-white/40 tracking-widest font-bold">Email Me</p>
-                <p className="text-lg font-display">psthapit@clarosanalytics.com</p>
+                <a href="mailto:psthapit@clarosanalytics.com" className="text-lg font-display hover:text-brand-accent transition-colors">psthapit@clarosanalytics.com</a>
               </div>
             </div>
             
