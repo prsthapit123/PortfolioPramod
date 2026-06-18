@@ -55,7 +55,7 @@ export function Experience() {
                     {item.role}
                   </p>
 
-                  <ul className="space-y-3 text-white/50 text-[11px] leading-relaxed">
+                  <ul className="space-y-3 text-white/50 light:text-slate-600 text-[11px] leading-relaxed">
                     {item.highlights.map((highlight, j) => (
                       <li key={j} className="flex items-start gap-2">
                         <span className="w-1.5 h-1.5 rounded-full bg-brand-accent mt-1.5 shrink-0" />

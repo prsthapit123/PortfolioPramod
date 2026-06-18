@@ -24,7 +24,7 @@ export function About() {
             Optimizing <span className="text-brand-cyan">Foundations</span>,
             <br />Empowering Scale.
           </h2>
-          <p className="text-lg text-white/70 leading-relaxed mb-8">
+          <p className="text-lg text-white/70 light:text-slate-700 leading-relaxed mb-8">
             {PORTFOLIO_DATA.bio}
           </p>
           <div className="grid grid-cols-2 gap-4">
@@ -34,8 +34,8 @@ export function About() {
                   <item.icon className="w-6 h-6 text-brand-accent" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-white mb-1">{item.title}</h3>
-                  <p className="text-sm text-white/50">{item.desc}</p>
+                  <h3 className="font-bold text-white light:text-brand-primary mb-1">{item.title}</h3>
+                  <p className="text-sm text-white/50 light:text-slate-500">{item.desc}</p>
                 </div>
               </div>
             ))}
@@ -59,11 +59,11 @@ export function About() {
             {/* Orbital stats */}
             <div className="absolute -top-4 -right-4 glass-card p-4 accent-glow">
               <span className="text-3xl font-display font-bold text-brand-accent">5+</span>
-              <p className="text-[10px] uppercase tracking-widest text-white/50 font-bold">Years Experience</p>
+              <p className="text-[10px] uppercase tracking-widest text-white/50 light:text-slate-500 font-bold">Years Experience</p>
             </div>
             <div className="absolute -bottom-4 -left-4 glass-card p-4 accent-glow">
               <span className="text-3xl font-display font-bold text-brand-cyan">100%</span>
-              <p className="text-[10px] uppercase tracking-widest text-white/50 font-bold">Query Optimization</p>
+              <p className="text-[10px] uppercase tracking-widest text-white/50 light:text-slate-500 font-bold">Query Optimization</p>
             </div>
           </div>
         </motion.div>

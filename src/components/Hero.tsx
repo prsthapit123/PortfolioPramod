@@ -24,7 +24,7 @@ export function Hero() {
             Pramod Ratna Sthapit
           </h1>
 
-          <p className="text-xl md:text-2xl text-slate-300 mb-10 font-light italic max-w-2xl">
+          <p className="text-xl md:text-2xl text-slate-300 light:text-slate-600 mb-10 font-light italic max-w-2xl">
             “Optimizing Data. Powering Decisions.”
           </p>
 
@@ -38,7 +38,7 @@ export function Hero() {
             </a>
             <a
               href="#contact"
-              className="px-10 py-4 glass-card font-bold text-xs uppercase tracking-wider hover:bg-white/5 transition-all text-white/80 border-white/20"
+              className="px-10 py-4 glass-card font-bold text-xs uppercase tracking-wider hover:bg-white/5 transition-all text-white/80 light:text-brand-primary border-white/20 light:border-brand-primary/20"
             >
               Contact Me
             </a>
@@ -62,7 +62,7 @@ export function Hero() {
           </div>
           <div>
             <p className="text-[10px] uppercase tracking-widest font-bold text-slate-500 mb-1">Current Role</p>
-            <p className="text-sm font-semibold text-white/90">Software Engineer @ Claros Analytics</p>
+            <p className="text-sm font-semibold text-white/90 light:text-brand-primary">Software Engineer @ Claros Analytics</p>
           </div>
         </motion.div>
       </div>
@@ -71,7 +71,7 @@ export function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5, duration: 1 }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 text-white/30 animate-bounce"
+        className="absolute bottom-10 left-1/2 -translate-x-1/2 text-white/30 light:text-brand-primary/40 animate-bounce"
       >
         <ChevronDown />
       </motion.div>

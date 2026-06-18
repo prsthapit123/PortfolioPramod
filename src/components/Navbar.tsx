@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from "motion/react";
-import { Database, Menu, X, Sun, Moon } from "lucide-react";
+import { Menu, X, Sun, Moon } from "lucide-react";
 import { useState, useEffect } from "react";
 import { cn } from "../lib/utils";
 
@@ -44,10 +44,12 @@ export function Navbar() {
           animate={{ opacity: 1, x: 0 }}
           className="flex items-center gap-3"
         >
-          <div className="w-8 h-8 rounded bg-gradient-to-br from-blue-500 to-violet-600 flex items-center justify-center font-bold text-xs shadow-lg shadow-blue-500/20 text-white">
-            DB
+          <div className="w-9 h-9 rounded-xl bg-[#0d0f12] border border-white/[0.08] flex items-center justify-center shadow-[0_0_14px_rgba(59,130,246,0.18)] shrink-0">
+            <span className="font-display font-extrabold text-sm leading-none tracking-[-0.04em]">
+              <span className="text-white">P</span><span className="text-brand-accent">S</span>
+            </span>
           </div>
-          <span className="font-medium tracking-widest text-xs uppercase opacity-80 text-red light:text-brand-primary transition-colors">
+          <span className="font-medium tracking-widest text-xs uppercase opacity-80 text-white/70 light:text-brand-primary transition-colors">
             Software Engineer
           </span>
         </motion.div>
@@ -61,7 +63,7 @@ export function Navbar() {
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: i * 0.1 }}
-              className="text-sm font-medium text-red/70 hover:text-white hover:text-glow transition-all light:text-brand-primary/70 light:hover:text-brand-primary"
+              className="text-sm font-medium text-white/70 hover:text-white hover:text-glow transition-all light:text-brand-primary/70 light:hover:text-brand-primary"
             >
               {link.name}
             </motion.a>
@@ -71,7 +73,7 @@ export function Navbar() {
             onClick={() => setIsDarkMode(!isDarkMode)}
             className="p-2 rounded-full glass-card hover:bg-white/20 transition-all"
           >
-            {isDarkMode ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4 text-brand-primary" />}
+            {isDarkMode ? <Sun className="w-4 h-4 text-white light:text-brand-primary" /> : <Moon className="w-4 h-4 text-brand-primary" />}
           </button>
         </div>
 
@@ -81,7 +83,7 @@ export function Navbar() {
             onClick={() => setIsDarkMode(!isDarkMode)}
             className="p-2 rounded-full glass-card"
           >
-            {isDarkMode ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4 text-brand-primary" />}
+            {isDarkMode ? <Sun className="w-4 h-4 text-white light:text-brand-primary" /> : <Moon className="w-4 h-4 text-brand-primary" />}
           </button>
           <button 
             className="text-white p-1 light:text-brand-primary"

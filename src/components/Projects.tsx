@@ -40,7 +40,7 @@ export function Projects() {
             <div className="absolute inset-0 p-8 flex flex-col justify-end transition-transform duration-500 group-hover:translate-y-4">
               <span className="text-xs font-mono text-brand-accent tracking-widest uppercase mb-2">Project 0{i + 1}</span>
               <h3 className="text-3xl font-display font-bold text-white mb-2">{project.title}</h3>
-              <p className="text-white/60 text-sm max-w-xs">{project.description}</p>
+              <p className="text-white/60 light:text-slate-600 text-sm max-w-xs">{project.description}</p>
             </div>
             
             <div className="absolute top-4 right-4 p-3 glass-card opacity-0 group-hover:opacity-100 transition-opacity">
@@ -85,14 +85,14 @@ export function Projects() {
                 <div className="p-10 flex flex-col gap-6">
                   <div>
                     <h3 className="text-3xl font-display font-bold mb-2 tracking-tight">{selectedProject.title}</h3>
-                    <p className="text-white/60 leading-relaxed">{selectedProject.description}</p>
+                    <p className="text-white/60 light:text-slate-600 leading-relaxed">{selectedProject.description}</p>
                   </div>
 
                   <div>
                      <h4 className="text-xs font-mono text-brand-accent uppercase tracking-widest mb-3">Technology Stack</h4>
                      <div className="flex flex-wrap gap-2">
                        {selectedProject.tech.map(t => (
-                         <span key={t} className="px-3 py-1 bg-white/5 border border-white/10 rounded-full text-xs font-medium text-white/80">
+                         <span key={t} className="px-3 py-1 bg-white/5 light:bg-brand-primary/5 border border-white/10 light:border-brand-primary/10 rounded-full text-xs font-medium text-white/80 light:text-slate-700">
                            {t}
                          </span>
                        ))}
@@ -103,7 +103,7 @@ export function Projects() {
                      <h4 className="text-xs font-mono text-brand-cyan uppercase tracking-widest mb-3">Key Results</h4>
                      <ul className="space-y-2">
                         {selectedProject.results.map((r, i) => (
-                           <li key={i} className="flex items-center gap-3 text-sm text-white/70">
+                           <li key={i} className="flex items-center gap-3 text-sm text-white/70 light:text-slate-700">
                               <Box className="w-4 h-4 text-brand-cyan" />
                               <span>{r}</span>
                            </li>
