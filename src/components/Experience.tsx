@@ -31,7 +31,7 @@ export function Experience() {
               className="relative mb-12 flex items-start md:justify-center"
             >
               {/* Dot — pinned to the center line */}
-              <div className="absolute left-4 md:left-1/2 top-6 -translate-x-1/2 w-2.5 h-2.5 rounded-full bg-brand-accent shadow-[0_0_8px_#3b82f6] z-10" />
+              <div className="absolute left-4 md:left-1/2 top-6 -translate-x-1/2 w-2.5 h-2.5 rounded-full bg-brand-accent shadow-[0_0_8px_#5BB8F5] z-10" />
 
               {/* Card — alternates left / right on md+ */}
               <div

@@ -31,7 +31,7 @@ export function Hero() {
           <div className="flex flex-col sm:flex-row items-center gap-6">
             <a
               href="#projects"
-              className="group relative px-10 py-4 bg-brand-accent rounded-full font-bold text-xs uppercase tracking-wider flex items-center gap-2 overflow-hidden transition-all shadow-lg shadow-blue-600/30 hover:bg-blue-500"
+              className="group relative px-10 py-4 bg-brand-accent rounded-full font-bold text-xs uppercase tracking-wider flex items-center gap-2 overflow-hidden transition-all shadow-lg shadow-[#5BB8F5]/30 hover:bg-[#4AAEF0]"
             >
               <span>View Projects</span>
               <ArrowRight className="w-4 h-4" />

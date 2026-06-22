@@ -11,7 +11,7 @@ export function Skills() {
         className="text-center mb-20"
       >
         <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">Cognitive Architecture</h2>
-        <p className="text-violet-400 max-w-xl mx-auto font-mono text-[10px] tracking-[0.2em] uppercase font-bold">
+        <p className="text-brand-glow max-w-xl mx-auto font-mono text-[10px] tracking-[0.2em] uppercase font-bold">
           Architecture / Optimization / Performance
         </p>
       </motion.div>
@@ -47,7 +47,7 @@ export function Skills() {
                       whileInView={{ width: `${skill.level}%` }}
                       viewport={{ once: true }}
                       transition={{ duration: 1.5, ease: "easeOut" }}
-                      className="h-full bg-gradient-to-r from-blue-500 to-violet-600 rounded-full"
+                      className="h-full bg-gradient-to-r from-[#5BB8F5] to-[#93D8FA] rounded-full"
                     />
                   </div>
                 </div>

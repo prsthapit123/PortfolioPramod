@@ -9,9 +9,9 @@
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
 
   --color-brand-primary: #05070a;
-  --color-brand-accent: #3b82f6;
-  --color-brand-glow: #a78bfa;
-  --color-brand-cyan: #60a5fa;
+  --color-brand-accent: #5BB8F5;
+  --color-brand-glow: #93D8FA;
+  --color-brand-cyan: #7ECEF4;
 }
 
 @layer base {
@@ -44,7 +44,7 @@
 
   .text-glow {
     @apply transition-all duration-500;
-    text-shadow: 0 0 15px rgba(96,165,250,0.4);
+    text-shadow: 0 0 15px rgba(91,184,245,0.4);
   }
 
   .light .text-glow {
@@ -53,7 +53,7 @@
   }
 
   .accent-glow {
-    box-shadow: 0 0 40px -10px rgba(59, 130, 246, 0.3);
+    box-shadow: 0 0 40px -10px rgba(91, 184, 245, 0.3);
   }
 }
 

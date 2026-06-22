@@ -44,7 +44,7 @@ export function Navbar() {
           animate={{ opacity: 1, x: 0 }}
           className="flex items-center gap-3"
         >
-          <div className="w-9 h-9 rounded-xl bg-[#0d0f12] border border-white/[0.08] flex items-center justify-center shadow-[0_0_14px_rgba(59,130,246,0.18)] shrink-0">
+          <div className="w-9 h-9 rounded-xl bg-[#0d0f12] border border-white/[0.08] flex items-center justify-center shadow-[0_0_14px_rgba(91,184,245,0.25)] shrink-0">
             <span className="font-display font-extrabold text-sm leading-none tracking-[-0.04em]">
               <span className="text-white">P</span><span className="text-brand-accent">S</span>
             </span>

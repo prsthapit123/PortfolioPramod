@@ -7,7 +7,7 @@ export function Background() {
       <div 
         className="absolute inset-0 opacity-40 light:opacity-0"
         style={{
-          background: `radial-gradient(circle at 20% 30%, #1e1b4b 0%, transparent 50%), radial-gradient(circle at 80% 70%, #1e1b4b 0%, transparent 50%)`
+          background: `radial-gradient(circle at 20% 30%, #071829 0%, transparent 50%), radial-gradient(circle at 80% 70%, #071829 0%, transparent 50%)`
         }}
       />
 
