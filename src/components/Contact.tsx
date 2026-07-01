@@ -152,7 +152,7 @@ export function Contact() {
         </motion.div>
       </div>
       
-      <footer className="mt-24 pt-12 border-t border-white/5 light:border-brand-primary/10 flex flex-col items-center gap-4 text-[10px] font-mono text-slate-600 opacity-50 uppercase tracking-[0.2em]">
+      <footer className="mt-24 pt-12 border-t border-white/10 light:border-brand-primary/10 flex flex-col items-center gap-4 text-[10px] font-mono text-white/50 light:text-slate-500 uppercase tracking-[0.2em]">
         <div className="flex flex-wrap justify-center gap-x-8 gap-y-2">
            <span>System Status: Optimized</span>
            <span>Data Buffer: Stable</span>
