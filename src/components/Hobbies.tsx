@@ -5,7 +5,7 @@ const HOBBIES = [
   { icon: Code, name: "Coding Experiments", color: "text-brand-accent", glow: "shadow-brand-accent/30" },
   { icon: Gamepad2, name: "Competitive Gaming", color: "text-brand-glow", glow: "shadow-brand-glow/30" },
   { icon: Laptop, name: "Learning Tech", color: "text-brand-cyan", glow: "shadow-brand-cyan/30" },
-  { icon: Users, name: "Family Time", color: "text-white", glow: "shadow-white/10" },
+  { icon: Users, name: "Family Time", color: "text-brand-accent", glow: "shadow-brand-accent/20" },
 ];
 
 export function Hobbies() {
